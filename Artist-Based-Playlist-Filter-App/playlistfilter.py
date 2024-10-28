@@ -9,7 +9,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Playlist Ayıklama")
-        self.setWindowIcon(QIcon("spotify.png"))
+        self.setWindowIcon(QIcon("Artist-Based-Playlist-Filter-App/spotify.png"))
         self.setGeometry(420, 200, 400, 450)
         self.setMaximumWidth(600)
         self.setMinimumWidth(300)
